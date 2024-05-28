@@ -63,7 +63,7 @@ function App() {
 
       const winner = checkForWinner(newGameSpaces);
       if (winner !== null) {
-        // alert(`The ${winner}'s have it!`);
+        alert(`The ${winner}'s have it!`);
         return;
       }
     }
